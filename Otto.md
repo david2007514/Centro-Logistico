@@ -1,0 +1,1 @@
+ listo compañeros ya esta en orden en mi pc (AIO).
