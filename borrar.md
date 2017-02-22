@@ -1,1 +1,1 @@
-#ingrid  borrar este documento o archibo
+#ingrid  borrar este documento o archivo
