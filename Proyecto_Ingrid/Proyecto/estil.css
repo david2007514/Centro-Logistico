@@ -1,0 +1,61 @@
+#menudes1
+{
+	margin: auto;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+ul, li 
+{
+	list-style:none;
+}
+		
+.nav
+{
+	width:1400px;
+	margin:auto;
+}
+		
+.nav > li
+{
+	float:left;
+	width: 130px;
+	height: 35px;
+}
+		
+.nav li a 
+{
+	background-color:#ffa726;
+	color:#FFFFFF;
+	text-decoration:none;
+	display:block;
+	padding: 3px 4px;
+}
+		
+.nav li a:hover 
+{
+	background-color: #FFB546;
+}
+
+.nav li ul 
+{
+	display:none;
+	position:absolute;
+	min-width:120px;
+	width: 130px;
+}
+		
+.nav li:hover > ul 
+{
+	display:block;
+}
+		
+.nav li ul li 
+{
+	position:relative;
+}
+		
+.nav li ul li ul 
+{
+	right:1400px;
+	top:0px;
+}
