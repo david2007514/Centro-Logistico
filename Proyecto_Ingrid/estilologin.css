@@ -1,8 +1,63 @@
-#logistica
+#logistica1
 {
 	background-color: #ffa726;
-	width: 400px;
-	height: 200px;
+	width: 250px;
+	height: 180px;
+	margin-left: 350px;
+	margin-top: 150px;
+	box-shadow: 4px 4px 7px #999;
 }
+
+#espacio
+{
+	background-color: #238276;
+	width: 250px;
+	height: 10px;
+	margin-left: 350px;
+	box-shadow: 4px 4px 7px #999;
+}
+
+#contenedor
+{
+	background-color: #BFBCBC;
+	width: 250px;
+	height: 130px;
+	margin-left: 350px;
+	box-shadow: 4px 4px 7px #999;
+}
+
+#administrador1
+{
+	background-color: #70b22e;
+	width: 125px;
+	height: 130px;
+	position: fixed;
+}
+
+#administrador1:hover
+{
+	background-color: #9bdb5b;
+	width: 125px;
+	height: 130px;
+	position: fixed;
+}
+
+#instructor1
+{
+	background-color: #70b22e;
+	width: 125px;
+	height: 130px;
+	float: right;
+}
+
+#instructor1:hover
+{
+	background-color: #9bdb5b;
+	width: 125px;
+	height: 130px;
+	float: right;
+}
+
+
 	
 

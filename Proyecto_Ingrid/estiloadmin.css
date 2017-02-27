@@ -1,0 +1,120 @@
+#cuerpo
+{
+	background-color: #EAEAEA;
+	padding: 5PX 15PX;
+	width: 240px;
+	height: 200px;
+	font-family: verdana;
+	margin-left: 40%;
+	margin-top: 10%;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 4px 4px 7px #999;
+}
+
+label
+{
+	color: #000000;
+	font-family: verdana;
+	margin-left: 25px;
+}
+
+input
+{
+	font: 12px verdana;
+	height: 24px;
+	line-height: 20px;
+	padding: 0 2px;
+	width: 230px;
+	border-radius: 5px 5px 5px 5px; 
+}
+
+input#Usuario
+{
+	background-color: #FFFFFF;
+}
+
+input#Contraseña
+{
+	background-color: #FFFFFF;
+}
+
+#ingresar
+{
+	background-color:#C9C9C9;
+	width:100px;
+	height:25px;
+	float:left;
+	margin-top: 15px;
+	padding-top: 5px;
+	margin-left: 12px;
+	margin-bottom:5px;
+}
+
+#ingresar:hover
+{
+	background-color:#BABABA;
+	width:100px;
+	height:25px;
+	float:left;
+	margin-top: 15px;
+	padding-top: 5px;
+	margin-left: 12px;
+	margin-bottom:5px;
+}
+
+#cancelar
+{
+	background-color:#C9C9C9;
+	width:100px;
+	height:25px;
+	float:left;
+	margin-top: 15px;
+	padding-top: 5px;
+	margin-left: 12px;
+	margin-bottom: 5px;
+}
+
+#cancelar:hover
+{
+	background-color:#BABABA;
+	width:100px;
+	height:25px;
+	float:left;
+	margin-top: 15px;
+	padding-top: 5px;
+	margin-left: 12px;
+	margin-bottom: 5px;
+}
+
+.boton
+{
+	background: #FFFFFF;
+	color: #000000;
+	width: 100PX;
+	float: left;
+	margin-left: 12px;
+	margin-top: 8px;
+	margin-bottom: 25px;
+}
+
+.boton:active
+{
+	position: relative;
+	top: 3px;
+}
+
+#registro
+{
+	color: #000000;
+	padding: 55px;
+	font-style: oblique;
+	font-size: 13px;
+}
+
+#registro:hover
+{
+	color: #000000;
+	padding: 55px;
+	font-style: oblique;
+	font-size: 13px;
+}
