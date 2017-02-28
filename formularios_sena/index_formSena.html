@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="css/styleForm1.css" rel="stylesheet">
+    <link>
+    <title>Datos de aprendiz</title>
+  </head>
+  <body>       
+    <div class="contenedorFormulario">
+      <div class="wrap1">
+        <form class="formulario" action="" name="formularioRegistro" method="get">
+          <div>
+            <h1>DATOS DE APRENDIZ        </h1>
+            <div class="input-grup">
+              <input type="text" id="nombres" name="nombres">
+              <label class="label" for="nombres">Nombres                        </label>
+            </div>
+            <div class="input-grup">
+              <input type="text" id="apellidos" name="apellidos">
+              <label class="label" for="apellidos">Apellidos</label>
+            </div>
+            <div class="input-grup">
+              <input type="text" id="direccion" name="direccion">
+              <label class="label" for="direccion">Direccion                        </label>
+            </div>
+            <div class="input-grup">
+              <input type="text" id="formacionS Zena" name="formacionSena">
+              <label class="label" for="formacionSena">Formacion Sena                        </label>
+            </div>
+            <div class="input-grup">
+              <input type="email" id="email" name="email">
+              <label class="label" for="email">Correo Mi Sena                         </label>
+            </div>
+            <div class="input-grup">
+              <input type="text" id="" name="eps">
+              <label class="label" for="eps">EPS                        </label>
+            </div>
+            <div class="input-grup">
+              <input type="text" id="" name="arl">
+              <label class="label" for="arl">ARL</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="decision"> 
+      <div class="wrap2">
+        <form class="opciones" action="" name="formularioRegistro2">
+          <h1>TIPO DE CONTRATO</h1>
+          <div>
+            <div class="seleccion">
+              <input list="opns" name="seleccion" placeholder="selecciona">
+              <datalist id="opns" name="decision"> 
+                <option value="Contrato de Aprendisaje"> </option>
+                <option value="Vinculo Laboral"> </option>
+                <option value="Pasantias"> </option>
+                <option value="Monitorias">                </option>
+              </datalist>
+            </div>
+            <div class="fecha" name="definido">
+              <label class="inicio" for="inicia">Inicia                                  </label>
+              <input class="inicio error" type="date" name="inicia">
+              <label class="termina" for="termina">Termina                                                                </label>
+              <input class="termina error" type="date" name="termina" label="termina">
+            </div>
+            <div class="hora" name="temporal">                  
+              <label class="horas" for="horas">Horas a Realizar                    </label>
+              <input class="horas error" type="datetime" placeholder="HH:mm">
+            </div>
+            <input class="btn-submit" type="submit" value="Enviar">
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="js/formatosena.js"> </script>
+  </body>
+</html>

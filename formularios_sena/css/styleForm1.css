@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #f5f5f5;
+  font-family: arial;
+  border-top: 30px solid #c0c0c0; }
+
+h1 {
+  text-align: center;
+  color: #808080;
+  font-size: -95%;
+  padding: 10px; }
+
+.wrap1 {
+  width: 90%;
+  max-width: 500px;
+  padding: 40px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0px 0px 3px grey; }
+
+.contenedorFormulario {
+  width: 100%;
+  color: #666666;
+  padding: 50px; }
+  .contenedorFormulario .formulario {
+    width: 100%;
+    color: #f5f5f5;
+    margin: auto; }
+    .contenedorFormulario .formulario .input-grup {
+      position: relative;
+      margin-bottom: 32px; }
+      .contenedorFormulario .formulario .input-grup input[type="text"],
+      .contenedorFormulario .formulario .input-grup input[type="email"] {
+        font-family: arial;
+        font-size: 16px;
+        color: #666666;
+        width: 100%;
+        outline: none;
+        padding: 16px;
+        background: none;
+        border: none;
+        border-bottom: 2px solid #e9e9e9; }
+        .contenedorFormulario .formulario .input-grup input[type="text"]:focus, .contenedorFormulario .formulario .input-grup input[type="text"]:active,
+        .contenedorFormulario .formulario .input-grup input[type="email"]:focus,
+        .contenedorFormulario .formulario .input-grup input[type="email"]:active {
+          outline: none;
+          border-bottom: 2px solid #c0c0c0; }
+        .contenedorFormulario .formulario .input-grup input[type="text"].error,
+        .contenedorFormulario .formulario .input-grup input[type="email"].error {
+          border-bottom: 2px solid #D32F2F; }
+          .contenedorFormulario .formulario .input-grup input[type="text"].error + label,
+          .contenedorFormulario .formulario .input-grup input[type="email"].error + label {
+            color: #D32F2F; }
+      .contenedorFormulario .formulario .input-grup label {
+        color: #666666; }
+        .contenedorFormulario .formulario .input-grup label.label {
+          -webkit-transition: all .3s ease;
+          -o-transition: all .3s ease;
+          transition: all .3s ease;
+          margin-left: 15px;
+          font-size: 16px;
+          line-height: 16px;
+          position: absolute;
+          top: 16px;
+          left: 0; }
+          .contenedorFormulario .formulario .input-grup label.label.active {
+            top: -12px;
+            font-size: 12px;
+            line-height: 12px;
+            color: #B6B6B6; }
+
+.wrap2 {
+  width: 90%;
+  max-width: 500px;
+  padding: 40px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0px 0px 3px grey; }
+
+.decision {
+  width: 100%;
+  color: #666666;
+  padding: 40px; }
+  .decision .opciones {
+    width: 100%;
+    margin: auto; }
+    .decision .opciones .seleccion {
+      position: relative;
+      margin: 0;
+      left: 20%;
+      color: #666666; }
+      .decision .opciones .seleccion input {
+        text-align: center;
+        text-anchor: 12px;
+        font-size: 20px;
+        background-color: #f5f5f5;
+        border-width: 2px;
+        border-style: ridge;
+        padding: 16px;
+        margin-bottom: 32px;
+        border-color: #f5f5f5;
+        border: 2px;
+        width: 60%; }
+        .decision .opciones .seleccion input:focus, .decision .opciones .seleccion input:active {
+          outline: none;
+          color: #000;
+          border: none; }
+        .decision .opciones .seleccion input.error {
+          color: #D32F2F;
+          border-color: #D32F2F;
+          background: #D32F2F; }
+
+.decision {
+  width: 100%;
+  color: #666666;
+  padding: 40px; }
+  .decision .opciones {
+    width: 90%;
+    color: #666666;
+    margin: auto; }
+    .decision .opciones .fecha {
+      position: relative;
+      margin-right: 32px; }
+      .decision .opciones .fecha input[type="date"],
+      .decision .opciones .fecha input[type="datetime"] {
+        font-family: arial;
+        font-size: 12px;
+        color: #666666;
+        width: 30%;
+        height: 15%;
+        margin-bottom: 32px;
+        outline: none;
+        padding: 12px;
+        background: #f5f5f5;
+        border-style: hidden;
+        border: none;
+        border: 2px;
+        border-color: #666666; }
+        .decision .opciones .fecha input[type="date"]:focus, .decision .opciones .fecha input[type="date"]:active,
+        .decision .opciones .fecha input[type="datetime"]:focus,
+        .decision .opciones .fecha input[type="datetime"]:active {
+          outline: none;
+          border-bottom: 2px;
+          display: none; }
+        .decision .opciones .fecha input[type="date"].error,
+        .decision .opciones .fecha input[type="datetime"].error {
+          border-bottom: 2px;
+          border-color: #D32F2F; }
+    .decision .opciones .hora {
+      position: relative;
+      margin-right: 32px; }
+      .decision .opciones .hora input[type="datetime"] {
+        font-family: arial;
+        font-size: 12px;
+        color: #666666;
+        width: 30%;
+        height: 17%;
+        margin-bottom: 32px;
+        outline: none;
+        padding: 12px;
+        background: #f5f5f5;
+        border-style: hidden;
+        border: none;
+        border: 2px;
+        border-color: #666666; }
+        .decision .opciones .hora input[type="datetime"]:focus, .decision .opciones .hora input[type="datetime"]:active {
+          outline: none;
+          border-bottom: 2px; }
+        .decision .opciones .hora input[type="datetime"].error {
+          border-bottom: 2px;
+          border-color: #D32F2F; }
+    .decision .opciones input[type="submit"] {
+      background: #c0c0c0;
+      border-radius: 1px;
+      border: 2px solid #f5f5f5;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: arial;
+      font-size: 16px;
+      padding: 15px;
+      width: 100%;
+      -webkit-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease; }
+      .decision .opciones input[type="submit"]:hover {
+        background: #1976D2; }
